@@ -3,20 +3,19 @@ def greet(l):
    
    l = l.strip().lower() 
    if l == "es":
-      print "HOLA"
+      print ("HOLA")
    elif l =="fr":
-      print "BONJOUR"
+      print ("BONJOUR")
    elif l =="hi":
-      print "NAMASTE"
+      print ("NAMASTE")
    elif l == "dn":
-      print "HEJ"
+      print ("HEJ")
    elif l == "it":
-      print "CIAO"
+      print ("CIAO")
    else:
-      print "HELLO"
+      print ("HELLO")
   
 
-lang = raw_input("Enter lang.")
+lang = input("Enter lang.")
 
 greet(lang)
-
